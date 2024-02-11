@@ -32,11 +32,23 @@ export default function Home() {
 					)}
 
 					{state && (
-						<Image src={happy} alt="Happy" width={250} height={250} />
+						<Image
+							src={happy}
+							priority={true}
+							alt="Happy"
+							width={250}
+							height={250}
+						/>
 					)}
 
 					{state === false && (
-						<Image src={sad} alt="Sad" width={250} height={250} />
+						<Image
+							src={sad}
+							priority={true}
+							alt="Sad"
+							width={250}
+							height={250}
+						/>
 					)}
 				</div>
 
