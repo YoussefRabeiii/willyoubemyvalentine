@@ -13,8 +13,8 @@ export default function Home() {
 	const moveNo = () => {
 		const button = document.querySelector("#no");
 
-		button.style.transform = `translateX(${Math.random() * 400 - 50}px)`;
-		button.style.transform += `translateY(${Math.random() * 200 - 50}px)`;
+		button.style.transform = `translateX(${Math.random() * 50 - 50}vw)`;
+		button.style.transform += `translateY(${Math.random() * 50 - 50}vh)`;
 	};
 
 	return (
