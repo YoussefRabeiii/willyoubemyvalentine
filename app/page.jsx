@@ -76,7 +76,7 @@ export default function Home() {
 				<div className={styles.answerBox}>
 					{state !== undefined && (
 						<p className={styles.answer}>
-							{state ? "Yaaaaaay I love you too" : "What About Now ?"}
+							{state ? "Yaaaaaay I love you more" : "What About Now ?"}
 						</p>
 					)}
 				</div>
