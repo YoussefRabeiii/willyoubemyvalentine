@@ -21,7 +21,9 @@ export default function Home() {
 		<main className={styles.main}>
 			<div className={styles.container}>
 				<div className={styles.gif}>
-					{state === undefined && <Image src={begging} alt="Begging" />}
+					{state === undefined && (
+						<Image priority={true} src={begging} alt="Begging" />
+					)}
 
 					{state && <Image src={happy} alt="Happy" />}
 
