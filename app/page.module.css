@@ -13,7 +13,7 @@
 	padding: 5vh 20vw;
 	margin: 20px;
 	flex-direction: column;
-	border: dashed 2px aliceblue;
+	border: dashed 2px #f0f8ff;
 }
 
 .gif {
@@ -39,7 +39,7 @@
 	cursor: pointer;
 	padding: 10px 20px;
 	border-radius: 25px;
-	border: 2px solid aliceblue;
+	border: 2px solid #f0f8ff;
 }
 
 .yes:hover {
@@ -55,4 +55,19 @@
 	margin-block-start: 20px;
 }
 .answer {
+}
+
+/* responsive design */
+@media (max-width: 1000px) {
+	.container {
+		border: 3px dashed #f0f8ff;
+		padding: 5vh 15vw;
+	}
+
+	.title {
+		margin: auto;
+		width: 100%;
+		font-weight: bolder;
+		font-size: 0.9rem;
+	}
 }

@@ -22,15 +22,25 @@ export default function Home() {
 			<div className={styles.container}>
 				<div className={styles.gif}>
 					{state === undefined && (
-						<Image priority={true} src={begging} alt="Begging" />
+						<Image
+							priority={true}
+							src={begging}
+							alt="Begging"
+							width={250}
+							height={250}
+						/>
 					)}
 
-					{state && <Image src={happy} alt="Happy" />}
+					{state && (
+						<Image src={happy} alt="Happy" width={250} height={250} />
+					)}
 
-					{state === false && <Image src={sad} alt="Sad" />}
+					{state === false && (
+						<Image src={sad} alt="Sad" width={250} height={250} />
+					)}
 				</div>
 
-				<h1 className={styles.title}>Will You Be My Valentine ?</h1>
+				<h1 className={styles.title}>Angel Will You Be My Valentine ?</h1>
 
 				<div className={styles.buttons}>
 					<h3
